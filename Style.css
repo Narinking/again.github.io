@@ -1,0 +1,127 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+html{
+    font-size: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    position: relative;
+}
+.pic-left > img{
+    display:flex;
+    justify-content: start;
+    margin-left: 20px;
+    width: 10px;
+}
+section{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    margin-left: 15rem;
+    /* background-color: rgb(99, 103, 105); */
+    width: 70%;
+    
+}
+.text{
+    margin: 1rem;
+    text-decoration: none;
+    color: rgb(24, 26, 59);
+    font-size: 13px;
+    font-weight: bold;
+}
+.text-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 1rem;
+}
+.first{
+    margin-right: 3rem;
+    color: rgb(74, 77, 76);
+    font-size: 1.3rem;
+
+}
+.out{
+    margin-left: 20rem;
+    color: rgb(74, 77, 76);
+    font-size: 1.3rem;
+}
+.text:hover {
+    color:rgb(47, 47, 168);
+}
+.bordy{
+    display:grid;
+    justify-content: center;
+    align-items: center;
+    width: 50rem;
+    margin: auto;
+    gap: 1rem;
+    margin-top: 3rem;
+    /* background-color: rgb(104, 50, 205); */
+}
+.btnf{
+    margin: auto;
+    /* background-color: aqua; */
+    font-size: 2rem;
+    text-align: center;
+    width: 34rem;
+}
+.btns{
+    margin: auto;
+    /* background-color: aqua; */
+    font-size: 15px;
+    text-align: center;
+    width: 34rem;
+}
+.btns>h4 strong{
+    font-weight: bold;
+}
+.btn-h2:hover{
+    background-color: rgba(137, 141, 185, 0.356);
+
+}
+.btn-h1:hover{
+    background-color: rgb(190, 153, 18);
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+.btn-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    color:rgb(24, 49, 83);
+    border: 2px solid  rgb(24, 49, 83);
+    padding: 15px;
+    border-radius: 20px;
+    width: 13rem;
+    height: 50px;
+    box-shadow: 0 8px 0 rgb(24, 49, 83);
+    background-color: rgb(255, 212, 59);
+}
+a{
+    text-decoration: none;
+}
+.btn-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    color:rgb(24, 49, 83);
+    border: 2px solid  rgb(24, 49, 83);
+    padding: 15px;
+    border-radius: 20px;
+    width: 13rem;
+    height: 50px;
+    box-shadow: 0 8px 0 rgb(24, 49, 83);
+    background-color: rgb(255, 255, 255);
+}
